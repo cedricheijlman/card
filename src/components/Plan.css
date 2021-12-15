@@ -1,0 +1,48 @@
+.planCard {
+  display: flex;
+  background-color: rgb(246, 248, 253);
+  padding: 15px 15px;
+  align-items: center;
+  border-radius: 7px;
+}
+
+.planCard img {
+  width: 40px;
+}
+
+.planCard__name {
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.planCard__price {
+  color: rgb(105, 105, 105);
+}
+
+.planCard a {
+  color: blue;
+  font-size: 11px;
+  font-weight: 800;
+  padding-bottom: -20;
+  border-bottom: 1px solid blue;
+  cursor: pointer;
+}
+
+.planCard__self {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.planCard__self h6 {
+  margin: 0;
+  margin-bottom: 3px;
+}
+
+.planCard__self p {
+  margin: 0;
+
+  font-size: 13px;
+  width: 130px;
+}
